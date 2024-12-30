@@ -1,0 +1,1 @@
+This error occurs when using the useState hook in React Native. If you try to update the state directly using `this.setState` or by modifying the state object itself, the component will not re-render, resulting in unexpected behavior. This is because the useState hook creates an immutable state, and directly modifying it does not trigger a re-render.
